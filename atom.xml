@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Know K New</title>
+  
+  <subtitle>知识知新</subtitle>
+  <link href="http://hvious.github.io/atom.xml" rel="self"/>
+  
+  <link href="http://hvious.github.io/"/>
+  <updated>2021-04-18T01:27:56.250Z</updated>
+  <id>http://hvious.github.io/</id>
+  
+  <author>
+    <name>vious</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>在docker中使用MongoDB</title>
+    <link href="http://hvious.github.io/2021/04/18/zai-docker-zhong-shi-yong-mongodb/"/>
+    <id>http://hvious.github.io/2021/04/18/zai-docker-zhong-shi-yong-mongodb/</id>
+    <published>2021-04-18T01:16:45.000Z</published>
+    <updated>2021-04-18T01:27:56.250Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;新建mongodb数据存储目录&lt;/p&gt;
+&lt;pre class=&quot;line-numbers language-shell&quot; data-language=&quot;shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;mkdir -p</summary>
+        
+      
+    
+    
+    
+    <category term="install" scheme="http://hvious.github.io/categories/install/"/>
+    
+    
+    <category term="docker" scheme="http://hvious.github.io/tags/docker/"/>
+    
+    <category term="MongoDB" scheme="http://hvious.github.io/tags/MongoDB/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>在docker中使用MinIO</title>
+    <link href="http://hvious.github.io/2021/04/18/zai-docker-zhong-shi-yong-minio/"/>
+    <id>http://hvious.github.io/2021/04/18/zai-docker-zhong-shi-yong-minio/</id>
+    <published>2021-04-18T01:14:50.000Z</published>
+    <updated>2021-04-18T01:27:47.268Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;新建MinIO数据存储目录&lt;/p&gt;
+&lt;pre class=&quot;line-numbers language-shell&quot; data-language=&quot;shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;mkdir -p</summary>
+        
+      
+    
+    
+    
+    <category term="install" scheme="http://hvious.github.io/categories/install/"/>
+    
+    
+    <category term="docker" scheme="http://hvious.github.io/tags/docker/"/>
+    
+    <category term="MinIO" scheme="http://hvious.github.io/tags/MinIO/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>如何安装mysql</title>
+    <link href="http://hvious.github.io/2021/04/17/ru-he-an-zhuang-mysql/"/>
+    <id>http://hvious.github.io/2021/04/17/ru-he-an-zhuang-mysql/</id>
+    <published>2021-04-17T15:36:12.000Z</published>
+    <updated>2021-04-18T01:23:59.326Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;centos7安装mysql5-7&quot;&gt;&lt;a href=&quot;#centos7安装mysql5-7&quot; class=&quot;headerlink&quot; title=&quot;centos7安装mysql5.7&quot;&gt;&lt;/a&gt;centos7安装mysql5.7&lt;/h2&gt;&lt;pre</summary>
+        
+      
+    
+    
+    
+    <category term="install" scheme="http://hvious.github.io/categories/install/"/>
+    
+    
+    <category term="mysql" scheme="http://hvious.github.io/tags/mysql/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>如何安装php环境</title>
+    <link href="http://hvious.github.io/2021/04/17/ru-he-an-zhuang-php-huan-jing/"/>
+    <id>http://hvious.github.io/2021/04/17/ru-he-an-zhuang-php-huan-jing/</id>
+    <published>2021-04-17T15:35:58.000Z</published>
+    <updated>2021-04-18T01:24:15.241Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;centos7安装php环境&quot;&gt;&lt;a href=&quot;#centos7安装php环境&quot; class=&quot;headerlink&quot; title=&quot;centos7安装php环境&quot;&gt;&lt;/a&gt;centos7安装php环境&lt;/h2&gt;&lt;pre class=&quot;line-numbers</summary>
+        
+      
+    
+    
+    
+    <category term="install" scheme="http://hvious.github.io/categories/install/"/>
+    
+    
+    <category term="php" scheme="http://hvious.github.io/tags/php/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>如何安装nginx</title>
+    <link href="http://hvious.github.io/2021/04/17/ru-he-an-zhuang-nginx/"/>
+    <id>http://hvious.github.io/2021/04/17/ru-he-an-zhuang-nginx/</id>
+    <published>2021-04-17T15:35:37.000Z</published>
+    <updated>2021-04-18T01:24:09.095Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;centos7安装nginx&quot;&gt;&lt;a href=&quot;#centos7安装nginx&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="install" scheme="http://hvious.github.io/categories/install/"/>
+    
+    
+    <category term="nginx" scheme="http://hvious.github.io/tags/nginx/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>在docker中使用redis</title>
+    <link href="http://hvious.github.io/2021/04/16/zai-docker-zhong-shi-yong-redis/"/>
+    <id>http://hvious.github.io/2021/04/16/zai-docker-zhong-shi-yong-redis/</id>
+    <published>2021-04-16T13:58:56.000Z</published>
+    <updated>2021-04-18T01:28:00.627Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;准备&quot;&gt;&lt;a href=&quot;#准备&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="install" scheme="http://hvious.github.io/categories/install/"/>
+    
+    
+    <category term="docker" scheme="http://hvious.github.io/tags/docker/"/>
+    
+    <category term="redis" scheme="http://hvious.github.io/tags/redis/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>什么是mysqlpump</title>
+    <link href="http://hvious.github.io/2021/03/02/shi-me-shi-mysqlpump/"/>
+    <id>http://hvious.github.io/2021/03/02/shi-me-shi-mysqlpump/</id>
+    <published>2021-03-02T12:17:02.000Z</published>
+    <updated>2021-04-18T01:24:46.909Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;数据库备份有物理备份和逻辑备份两种形式，下面简单介绍这两种备份方式的区别，但不会太深入，毕竟本文的重点是mysqlpump。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;物理备份是将数据库的数据存储文件直接打包备份，也有些工具可以做物理备份。优点有：操作简单、恢复速度快；缺点有：版本</summary>
+        
+      
+    
+    
+    
+    <category term="tools" scheme="http://hvious.github.io/categories/tools/"/>
+    
+    <category term="what&#39;s" scheme="http://hvious.github.io/categories/tools/what-s/"/>
+    
+    
+    <category term="mysql" scheme="http://hvious.github.io/tags/mysql/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>如何修改mysql的数据库名</title>
+    <link href="http://hvious.github.io/2021/02/15/ru-he-xiu-gai-mysql-de-shu-ju-ku-ming/"/>
+    <id>http://hvious.github.io/2021/02/15/ru-he-xiu-gai-mysql-de-shu-ju-ku-ming/</id>
+    <published>2021-02-15T15:15:25.000Z</published>
+    <updated>2021-04-17T15:46:05.788Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;使用脚本，安全且方便的将旧库&lt;strong&gt;改名&lt;/strong&gt;为新库。&lt;/p&gt;
+&lt;pre class=&quot;line-numbers language-none&quot;&gt;&lt;code</summary>
+        
+      
+    
+    
+    
+    <category term="tools" scheme="http://hvious.github.io/categories/tools/"/>
+    
+    
+    <category term="mysql" scheme="http://hvious.github.io/tags/mysql/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>如何安装docker-ce</title>
+    <link href="http://hvious.github.io/2021/01/07/ru-he-an-zhuang-docker-ce/"/>
+    <id>http://hvious.github.io/2021/01/07/ru-he-an-zhuang-docker-ce/</id>
+    <published>2021-01-07T13:33:00.000Z</published>
+    <updated>2021-04-18T01:23:48.723Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;简单介绍下docker相关组件&lt;/p&gt;
+&lt;p&gt;containerd.io – daemon to interface with the OS API (in this case, LXC – Linux Containers),</summary>
+        
+      
+    
+    
+    
+    <category term="install" scheme="http://hvious.github.io/categories/install/"/>
+    
+    
+    <category term="docker" scheme="http://hvious.github.io/tags/docker/"/>
+    
+    <category term="docker-compose" scheme="http://hvious.github.io/tags/docker-compose/"/>
+    
+  </entry>
+  
+</feed>
