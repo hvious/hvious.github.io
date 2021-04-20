@@ -6,7 +6,7 @@
   <link href="https://vious.cn/atom.xml" rel="self"/>
   
   <link href="https://vious.cn/"/>
-  <updated>2021-04-18T01:27:56.250Z</updated>
+  <updated>2021-04-20T07:50:59.810Z</updated>
   <id>https://vious.cn/</id>
   
   <author>
@@ -18,10 +18,10 @@
   
   <entry>
     <title>在docker中使用MongoDB</title>
-    <link href="https://vious.cn/2021/04/18/zai-docker-zhong-shi-yong-mongodb/"/>
-    <id>https://vious.cn/2021/04/18/zai-docker-zhong-shi-yong-mongodb/</id>
+    <link href="https://vious.cn/posts/37178aa8/"/>
+    <id>https://vious.cn/posts/37178aa8/</id>
     <published>2021-04-18T01:16:45.000Z</published>
-    <updated>2021-04-18T01:27:56.250Z</updated>
+    <updated>2021-04-20T07:50:59.810Z</updated>
     
     
       
@@ -46,10 +46,10 @@
   
   <entry>
     <title>在docker中使用MinIO</title>
-    <link href="https://vious.cn/2021/04/18/zai-docker-zhong-shi-yong-minio/"/>
-    <id>https://vious.cn/2021/04/18/zai-docker-zhong-shi-yong-minio/</id>
+    <link href="https://vious.cn/posts/7b2c2425/"/>
+    <id>https://vious.cn/posts/7b2c2425/</id>
     <published>2021-04-18T01:14:50.000Z</published>
-    <updated>2021-04-18T01:27:47.268Z</updated>
+    <updated>2021-04-20T07:50:59.809Z</updated>
     
     
       
@@ -74,10 +74,10 @@
   
   <entry>
     <title>如何安装mysql</title>
-    <link href="https://vious.cn/2021/04/17/ru-he-an-zhuang-mysql/"/>
-    <id>https://vious.cn/2021/04/17/ru-he-an-zhuang-mysql/</id>
+    <link href="https://vious.cn/posts/183793f2/"/>
+    <id>https://vious.cn/posts/183793f2/</id>
     <published>2021-04-17T15:36:12.000Z</published>
-    <updated>2021-04-18T01:23:59.326Z</updated>
+    <updated>2021-04-20T07:50:59.812Z</updated>
     
     
       
@@ -99,10 +99,10 @@
   
   <entry>
     <title>如何安装php环境</title>
-    <link href="https://vious.cn/2021/04/17/ru-he-an-zhuang-php-huan-jing/"/>
-    <id>https://vious.cn/2021/04/17/ru-he-an-zhuang-php-huan-jing/</id>
+    <link href="https://vious.cn/posts/66e9c7fd/"/>
+    <id>https://vious.cn/posts/66e9c7fd/</id>
     <published>2021-04-17T15:35:58.000Z</published>
-    <updated>2021-04-18T01:24:15.241Z</updated>
+    <updated>2021-04-20T07:50:59.813Z</updated>
     
     
       
@@ -124,10 +124,10 @@
   
   <entry>
     <title>如何安装nginx</title>
-    <link href="https://vious.cn/2021/04/17/ru-he-an-zhuang-nginx/"/>
-    <id>https://vious.cn/2021/04/17/ru-he-an-zhuang-nginx/</id>
+    <link href="https://vious.cn/posts/296035cb/"/>
+    <id>https://vious.cn/posts/296035cb/</id>
     <published>2021-04-17T15:35:37.000Z</published>
-    <updated>2021-04-18T01:24:09.095Z</updated>
+    <updated>2021-04-20T07:50:59.812Z</updated>
     
     
       
@@ -149,10 +149,10 @@
   
   <entry>
     <title>在docker中使用redis</title>
-    <link href="https://vious.cn/2021/04/16/zai-docker-zhong-shi-yong-redis/"/>
-    <id>https://vious.cn/2021/04/16/zai-docker-zhong-shi-yong-redis/</id>
+    <link href="https://vious.cn/posts/a5f76939/"/>
+    <id>https://vious.cn/posts/a5f76939/</id>
     <published>2021-04-16T13:58:56.000Z</published>
-    <updated>2021-04-18T01:28:00.627Z</updated>
+    <updated>2021-04-20T07:50:59.810Z</updated>
     
     
       
@@ -176,10 +176,10 @@
   
   <entry>
     <title>什么是mysqlpump</title>
-    <link href="https://vious.cn/2021/03/02/shi-me-shi-mysqlpump/"/>
-    <id>https://vious.cn/2021/03/02/shi-me-shi-mysqlpump/</id>
+    <link href="https://vious.cn/posts/cf36362e/"/>
+    <id>https://vious.cn/posts/cf36362e/</id>
     <published>2021-03-02T12:17:02.000Z</published>
-    <updated>2021-04-18T01:24:46.909Z</updated>
+    <updated>2021-04-20T07:50:59.805Z</updated>
     
     
       
@@ -205,10 +205,10 @@
   
   <entry>
     <title>如何修改mysql的数据库名</title>
-    <link href="https://vious.cn/2021/02/15/ru-he-xiu-gai-mysql-de-shu-ju-ku-ming/"/>
-    <id>https://vious.cn/2021/02/15/ru-he-xiu-gai-mysql-de-shu-ju-ku-ming/</id>
+    <link href="https://vious.cn/posts/60f5d476/"/>
+    <id>https://vious.cn/posts/60f5d476/</id>
     <published>2021-02-15T15:15:25.000Z</published>
-    <updated>2021-04-17T15:46:05.788Z</updated>
+    <updated>2021-04-20T07:50:59.811Z</updated>
     
     
       
@@ -231,10 +231,10 @@
   
   <entry>
     <title>如何安装docker-ce</title>
-    <link href="https://vious.cn/2021/01/07/ru-he-an-zhuang-docker-ce/"/>
-    <id>https://vious.cn/2021/01/07/ru-he-an-zhuang-docker-ce/</id>
+    <link href="https://vious.cn/posts/2d4a7e59/"/>
+    <id>https://vious.cn/posts/2d4a7e59/</id>
     <published>2021-01-07T13:33:00.000Z</published>
-    <updated>2021-04-18T01:23:48.723Z</updated>
+    <updated>2021-04-20T07:50:59.811Z</updated>
     
     
       
