@@ -6,7 +6,7 @@
   <link href="https://vious.cn/atom.xml" rel="self"/>
   
   <link href="https://vious.cn/"/>
-  <updated>2021-04-20T07:50:59.810Z</updated>
+  <updated>2021-04-22T08:10:31.477Z</updated>
   <id>https://vious.cn/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>闲聊Nginx的超时timeout</title>
+    <link href="https://vious.cn/posts/725ed0be/"/>
+    <id>https://vious.cn/posts/725ed0be/</id>
+    <published>2021-04-22T07:46:07.000Z</published>
+    <updated>2021-04-22T08:10:31.477Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h1 id=&quot;闲聊Nginx的超时-timeout&quot;&gt;&lt;a href=&quot;#闲聊Nginx的超时-timeout&quot; class=&quot;headerlink&quot; title=&quot;闲聊Nginx的超时(timeout)&quot;&gt;&lt;/a&gt;闲聊Nginx的超时(timeout)&lt;/h1&gt;&lt;h2</summary>
+        
+      
+    
+    
+    
+    <category term="bug" scheme="https://vious.cn/categories/bug/"/>
+    
+    
+    <category term="nginx" scheme="https://vious.cn/tags/nginx/"/>
+    
+  </entry>
   
   <entry>
     <title>在docker中使用MongoDB</title>
