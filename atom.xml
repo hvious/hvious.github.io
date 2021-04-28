@@ -6,7 +6,7 @@
   <link href="https://vious.cn/atom.xml" rel="self"/>
   
   <link href="https://vious.cn/"/>
-  <updated>2021-04-22T08:10:31.477Z</updated>
+  <updated>2021-04-28T05:58:43.907Z</updated>
   <id>https://vious.cn/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>记一次挖矿病毒的清除</title>
+    <link href="https://vious.cn/posts/a12e3b15/"/>
+    <id>https://vious.cn/posts/a12e3b15/</id>
+    <published>2021-04-27T05:24:48.000Z</published>
+    <updated>2021-04-28T05:58:43.907Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;blockquote&gt;
+&lt;p&gt;先在这里交代一下背景。&lt;/p&gt;
+&lt;p&gt;该公司规模较小，且历史包袱重。服务器在某云平台，且N年无人维护。&lt;/p&gt;
+&lt;p&gt;服务器使用的系统是 Centos6.5&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;风起&quot;&gt;&lt;a href=&quot;#风起&quot;</summary>
+        
+      
+    
+    
+    
+    
+    <category term="security" scheme="https://vious.cn/tags/security/"/>
+    
+  </entry>
   
   <entry>
     <title>闲聊Nginx的超时timeout</title>
