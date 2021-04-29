@@ -82,7 +82,7 @@
         
         
     <summary type="html">&lt;p&gt;新建mongodb数据存储目录&lt;/p&gt;
-&lt;pre class=&quot;line-numbers language-shell&quot; data-language=&quot;shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;&lt;span class=&quot;token</summary>
+&lt;pre class=&quot;line-numbers language-shell&quot; data-language=&quot;shell&quot;&gt;&lt;code class=&quot;language-shell&quot;&gt;mkdir -p</summary>
         
       
     
