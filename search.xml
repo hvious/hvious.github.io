@@ -4,6 +4,27 @@
   
     
     <entry>
+      <title>Mosquitto的配置</title>
+      <link href="posts/7b3ad2a0/"/>
+      <url>posts/7b3ad2a0/</url>
+      
+        <content type="html"><![CDATA[<p><a href="https://www.baidu.com/link?url=yKdKgqDsOMfcp-7V2ISqUN7LvqEtMJdGHWJWYHG30GG&wd=&eqid=c3dfb7010038b28300000004609cf99e">Eclipse Mosquitto</a> 是一个mqtt的代理服务器。</p><h2 id="配置协议"><a href="#配置协议" class="headerlink" title="配置协议"></a>配置协议</h2><p>现有场景是，服务器端和浏览器端都要连接到mqtt代理，并使用mqtt协议通信。</p><p>服务器端使用mqtt协议即可正常连接，但浏览器不支持mqtt协议。所以需要mqtt代理配置websocket协议，来兼容浏览器的连接。</p><h3 id="mqtt协议配置"><a href="#mqtt协议配置" class="headerlink" title="mqtt协议配置"></a>mqtt协议配置</h3><p>mosquitto.conf</p><pre class="line-numbers language-none"><code class="language-none">listener 1883 0.0.0.0protocol mqtt<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><h3 id="websocket协议配置"><a href="#websocket协议配置" class="headerlink" title="websocket协议配置"></a>websocket协议配置</h3><p>mosquitto.conf</p><pre class="line-numbers language-none"><code class="language-none">listener 1884 0.0.0.0protocol websockets<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><h3 id="安全的websocket协议配置-websocket-over-TLS"><a href="#安全的websocket协议配置-websocket-over-TLS" class="headerlink" title="安全的websocket协议配置(websocket over TLS)"></a>安全的websocket协议配置(websocket over TLS)</h3><p>mosquitto.conf</p><pre class="line-numbers language-none"><code class="language-none">listener 1885 0.0.0.0protocol websocketscafile &#x2F;mosquitto&#x2F;cert&#x2F;xxx_chain.crtcertfile &#x2F;mosquitto&#x2F;cert&#x2F;xxx_public.crtkeyfile &#x2F;mosquitto&#x2F;cert&#x2F;xxx.key<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre><p>可以同时配置多个listener，以实现多个端口/协议协作。</p><p>如果要将不同的用户端隔离开来，<code>mount_point</code>是额外需要配置的参数。</p><h2 id="配置用户"><a href="#配置用户" class="headerlink" title="配置用户"></a>配置用户</h2><p>mosquitto.conf</p><pre class="line-numbers language-none"><code class="language-none"># 关闭匿名模式allow_anonymous false# 指定密码文件password_file &#x2F;mosquitto&#x2F;config&#x2F;pwfile.conf<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span></span></code></pre><p>新建密码存储文件</p><pre class="line-numbers language-none"><code class="language-none">touch &#x2F;mqtt-mosquitto&#x2F;config&#x2F;pwfile.conf<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>修改文件夹权限</p><pre class="line-numbers language-none"><code class="language-none">chmod -R 755 &#x2F;data&#x2F;mqtt-mosquitto<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre><p>启动后，使用<code>mosquitto_passwd</code>命令来操作用户</p><pre class="line-numbers language-none"><code class="language-none"># 新增&#x2F;修改用户。对同一个用户名，多次使用，就是修改密码mosquitto_passwd -b &#x2F;mosquitto&#x2F;config&#x2F;pwfile.conf username password# 删除用户mosquitto_passwd -D  username<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span></span></code></pre><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><ul><li>Mosquitto支持的协议<ul><li>支持mqtt原生协议</li><li>支持websocket协议（ws）</li><li>支持TLS的websocket协议（wss）</li></ul></li><li>Mosquitto可以同时开放多个端口/协议连接相同/不同的隔离空间</li><li>建议配置用户名密码来连接代理，更安全</li></ul><h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><p><a href="http://mosquitto.org/man/mosquitto-conf-5.html">http://mosquitto.org/man/mosquitto-conf-5.html</a></p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> mqtt </tag>
+            
+            <tag> mosquitto </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>挖矿病毒newinit背后的原理和清除</title>
       <link href="posts/b917198/"/>
       <url>posts/b917198/</url>

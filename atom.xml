@@ -6,7 +6,7 @@
   <link href="https://vious.cn/atom.xml" rel="self"/>
   
   <link href="https://vious.cn/"/>
-  <updated>2021-04-28T07:12:34.020Z</updated>
+  <updated>2021-05-14T05:44:30.866Z</updated>
   <id>https://vious.cn/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Mosquitto的配置</title>
+    <link href="https://vious.cn/posts/7b3ad2a0/"/>
+    <id>https://vious.cn/posts/7b3ad2a0/</id>
+    <published>2021-05-14T05:41:43.000Z</published>
+    <updated>2021-05-14T05:44:30.866Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;a href=&quot;https://www.baidu.com/link?url=yKdKgqDsOMfcp-7V2ISqUN7LvqEtMJdGHWJWYHG30GG&amp;wd=&amp;eqid=c3dfb7010038b28300000004609cf99e&quot;&gt;Eclipse</summary>
+        
+      
+    
+    
+    
+    
+    <category term="mqtt" scheme="https://vious.cn/tags/mqtt/"/>
+    
+    <category term="mosquitto" scheme="https://vious.cn/tags/mosquitto/"/>
+    
+  </entry>
   
   <entry>
     <title>挖矿病毒newinit背后的原理和清除</title>

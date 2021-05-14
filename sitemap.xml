@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://vious.cn/posts/7b3ad2a0/</loc>
+    
+    <lastmod>2021-05-14</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://vious.cn/posts/b917198/</loc>
     
     <lastmod>2021-04-28</lastmod>
@@ -37,13 +44,6 @@
   </url>
   
   <url>
-    <loc>https://vious.cn/posts/2d4a7e59/</loc>
-    
-    <lastmod>2021-04-20</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://vious.cn/posts/60f5d476/</loc>
     
     <lastmod>2021-04-20</lastmod>
@@ -51,7 +51,7 @@
   </url>
   
   <url>
-    <loc>https://vious.cn/posts/a5f76939/</loc>
+    <loc>https://vious.cn/posts/2d4a7e59/</loc>
     
     <lastmod>2021-04-20</lastmod>
     
@@ -59,6 +59,13 @@
   
   <url>
     <loc>https://vious.cn/posts/37178aa8/</loc>
+    
+    <lastmod>2021-04-20</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://vious.cn/posts/a5f76939/</loc>
     
     <lastmod>2021-04-20</lastmod>
     
@@ -116,7 +123,7 @@
 
   <url>
     <loc>https://vious.cn/</loc>
-    <lastmod>2021-04-29</lastmod>
+    <lastmod>2021-05-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -124,63 +131,77 @@
   
   <url>
     <loc>https://vious.cn/tags/docker/</loc>
-    <lastmod>2021-04-29</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://vious.cn/tags/redis/</loc>
-    <lastmod>2021-04-29</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://vious.cn/tags/mysql/</loc>
-    <lastmod>2021-04-29</lastmod>
+    <lastmod>2021-05-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://vious.cn/tags/MinIO/</loc>
-    <lastmod>2021-04-29</lastmod>
+    <lastmod>2021-05-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://vious.cn/tags/MongoDB/</loc>
-    <lastmod>2021-04-29</lastmod>
+    <lastmod>2021-05-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://vious.cn/tags/redis/</loc>
+    <lastmod>2021-05-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://vious.cn/tags/mqtt/</loc>
+    <lastmod>2021-05-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://vious.cn/tags/mosquitto/</loc>
+    <lastmod>2021-05-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://vious.cn/tags/mysql/</loc>
+    <lastmod>2021-05-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://vious.cn/tags/docker-compose/</loc>
-    <lastmod>2021-04-29</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://vious.cn/tags/security/</loc>
-    <lastmod>2021-04-29</lastmod>
+    <lastmod>2021-05-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://vious.cn/tags/nginx/</loc>
-    <lastmod>2021-04-29</lastmod>
+    <lastmod>2021-05-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://vious.cn/tags/php/</loc>
-    <lastmod>2021-04-29</lastmod>
+    <lastmod>2021-05-14</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://vious.cn/tags/security/</loc>
+    <lastmod>2021-05-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -189,28 +210,28 @@
   
   <url>
     <loc>https://vious.cn/categories/install/</loc>
-    <lastmod>2021-04-29</lastmod>
+    <lastmod>2021-05-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://vious.cn/categories/tools/</loc>
-    <lastmod>2021-04-29</lastmod>
+    <lastmod>2021-05-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://vious.cn/categories/tools/what-s/</loc>
-    <lastmod>2021-04-29</lastmod>
+    <lastmod>2021-05-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
   
   <url>
     <loc>https://vious.cn/categories/bug/</loc>
-    <lastmod>2021-04-29</lastmod>
+    <lastmod>2021-05-14</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
