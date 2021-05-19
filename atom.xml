@@ -6,7 +6,7 @@
   <link href="https://vious.cn/atom.xml" rel="self"/>
   
   <link href="https://vious.cn/"/>
-  <updated>2021-05-14T05:44:30.866Z</updated>
+  <updated>2021-05-19T05:33:12.099Z</updated>
   <id>https://vious.cn/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>在docker中使用nginx</title>
+    <link href="https://vious.cn/posts/7aa5072d/"/>
+    <id>https://vious.cn/posts/7aa5072d/</id>
+    <published>2021-05-19T05:22:22.000Z</published>
+    <updated>2021-05-19T05:33:12.099Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;准备&quot;&gt;&lt;a href=&quot;#准备&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="install" scheme="https://vious.cn/categories/install/"/>
+    
+    
+    <category term="docker" scheme="https://vious.cn/tags/docker/"/>
+    
+    <category term="nginx" scheme="https://vious.cn/tags/nginx/"/>
+    
+  </entry>
   
   <entry>
     <title>Mosquitto的配置</title>

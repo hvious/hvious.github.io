@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>在docker中使用nginx</title>
+      <link href="posts/7aa5072d/"/>
+      <url>posts/7aa5072d/</url>
+      
+        <content type="html"><![CDATA[<h2 id="准备"><a href="#准备" class="headerlink" title="准备"></a>准备</h2><p>安装目标：</p><p>启动nginx，监听80和443端口。</p><p>nginx的配置文件、日志文件存放在宿主机。</p><p>选择一个适合的版本：</p><p><a href="https://hub.docker.com/">在docker-hub中选择</a></p><pre class="line-numbers language-none"><code class="language-none"># 此处选用1.20-alpinedocker pull nginx:1.20-alpine<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><h2 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h2><p>准备存放持久化文件、配置文件的宿主机目录</p><pre class="line-numbers language-none"><code class="language-none">mkdir -p &#x2F;data&#x2F;nginx&#x2F;&#123;ssl_cert,conf,logs,data&#125;mkdir -p &#x2F;data&#x2F;nginx&#x2F;conf&#x2F;conf.d<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre><p>编写配置文件nginx.conf，并放入宿主机目录/data/nginx/conf/nginx.conf</p><pre class="line-numbers language-none"><code class="language-none">user  nginx;worker_processes  auto;error_log  &#x2F;var&#x2F;log&#x2F;nginx&#x2F;error.log notice;pid        &#x2F;var&#x2F;run&#x2F;nginx.pid;events &#123;    worker_connections  1024;&#125;http &#123;    include       &#x2F;etc&#x2F;nginx&#x2F;mime.types;    default_type  application&#x2F;octet-stream;    log_format  main  &#39;$remote_addr - $remote_user [$time_local] &quot;$request&quot; &#39;                      &#39;$status $body_bytes_sent &quot;$http_referer&quot; &#39;                      &#39;&quot;$http_user_agent&quot; &quot;$http_x_forwarded_for&quot;&#39;;    access_log  &#x2F;var&#x2F;log&#x2F;nginx&#x2F;access.log  main;    sendfile        on;    #tcp_nopush     on;    keepalive_timeout  65;    #gzip  on;    # file size    client_max_body_size   100m;    include &#x2F;etc&#x2F;nginx&#x2F;conf.d&#x2F;*.conf;&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><p>编写默认的server配置。并放入宿主机目录/data/nginx/conf/conf.d/default.conf</p><pre class="line-numbers language-none"><code class="language-none">server &#123;    listen       80;    listen  [::]:80;    server_name  localhost;    #access_log  &#x2F;var&#x2F;log&#x2F;nginx&#x2F;host.access.log  main;    location &#x2F; &#123;        root   &#x2F;usr&#x2F;share&#x2F;nginx&#x2F;html;        index  index.html index.htm;    &#125;    #error_page  404              &#x2F;404.html;    # redirect server error pages to the static page &#x2F;50x.html    #    error_page   500 502 503 504  &#x2F;50x.html;    location &#x3D; &#x2F;50x.html &#123;        root   &#x2F;usr&#x2F;share&#x2F;nginx&#x2F;html;    &#125;    # proxy the PHP scripts to Apache listening on 127.0.0.1:80    #    #location ~ \.php$ &#123;    #    proxy_pass   http:&#x2F;&#x2F;127.0.0.1;    #&#125;    # pass the PHP scripts to FastCGI server listening on 127.0.0.1:9000    #    #location ~ \.php$ &#123;    #    root           html;    #    fastcgi_pass   127.0.0.1:9000;    #    fastcgi_index  index.php;    #    fastcgi_param  SCRIPT_FILENAME  &#x2F;scripts$fastcgi_script_name;    #    include        fastcgi_params;    #&#125;    # deny access to .htaccess files, if Apache&#39;s document root    # concurs with nginx&#39;s one    #    #location ~ &#x2F;\.ht &#123;    #    deny  all;    #&#125;&#125;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><p>编写nginx启动脚本</p><pre class="line-numbers language-none"><code class="language-none">docker run -d \  --name nginx120 \  -p 80:80 \  -p 443:443 \  -v &#x2F;data&#x2F;nginx&#x2F;ssl_cert:&#x2F;etc&#x2F;nginx&#x2F;ssl_cert \  -v &#x2F;data&#x2F;nginx&#x2F;conf&#x2F;nginx.conf:&#x2F;etc&#x2F;nginx&#x2F;nginx.conf:rw \  -v &#x2F;data&#x2F;nginx&#x2F;conf&#x2F;conf.d&#x2F;:&#x2F;etc&#x2F;nginx&#x2F;conf.d&#x2F;:rw \  -v &#x2F;data&#x2F;nginx&#x2F;logs&#x2F;:&#x2F;var&#x2F;log&#x2F;nginx&#x2F; \  -v &#x2F;data&#x2F;nginx&#x2F;data&#x2F;:&#x2F;data&#x2F;nginx&#x2F;data&#x2F; \  nginx:1.20-alpine;<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre><p>查看是否启动成功</p><pre class="line-numbers language-none"><code class="language-none">docker psdocker logs nginx120curl http:&#x2F;&#x2F;localhost<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span></span></code></pre><h2 id="说明"><a href="#说明" class="headerlink" title="说明"></a>说明</h2><h3 id="server配置文件"><a href="#server配置文件" class="headerlink" title="server配置文件"></a>server配置文件</h3><p>server的配置文件放在宿主机的 /data/nginx/conf/conf.d</p><h3 id="宿主机ip"><a href="#宿主机ip" class="headerlink" title="宿主机ip"></a>宿主机ip</h3><p>通过<code>ifconfig</code>查看，找到<code>docker0</code>项的IPV4地址就是宿主机ip，例如：127.17.0.1</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> install </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> docker </tag>
+            
+            <tag> nginx </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Mosquitto的配置</title>
       <link href="posts/7b3ad2a0/"/>
       <url>posts/7b3ad2a0/</url>
