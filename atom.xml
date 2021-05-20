@@ -6,7 +6,7 @@
   <link href="https://vious.cn/atom.xml" rel="self"/>
   
   <link href="https://vious.cn/"/>
-  <updated>2021-05-19T05:33:12.099Z</updated>
+  <updated>2021-05-20T06:10:44.779Z</updated>
   <id>https://vious.cn/</id>
   
   <author>
@@ -17,11 +17,37 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>百度网盘批量转存工具</title>
+    <link href="https://vious.cn/posts/c714d80/"/>
+    <id>https://vious.cn/posts/c714d80/</id>
+    <published>2021-05-19T06:55:06.000Z</published>
+    <updated>2021-05-20T06:10:44.779Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;需求&quot;&gt;&lt;a href=&quot;#需求&quot; class=&quot;headerlink&quot; title=&quot;需求&quot;&gt;&lt;/a&gt;需求&lt;/h2&gt;&lt;p&gt;某天，在将一个百度网盘分享转存到自己网盘里时，想到要有一款工具，能自动的将很多个分享文件转存到网盘目录下会节省很多时间。&lt;/p&gt;
+&lt;h2</summary>
+        
+      
+    
+    
+    
+    <category term="tools" scheme="https://vious.cn/categories/tools/"/>
+    
+    
+    <category term="fun" scheme="https://vious.cn/tags/fun/"/>
+    
+  </entry>
+  
+  <entry>
     <title>在docker中使用nginx</title>
     <link href="https://vious.cn/posts/7aa5072d/"/>
     <id>https://vious.cn/posts/7aa5072d/</id>
     <published>2021-05-19T05:22:22.000Z</published>
-    <updated>2021-05-19T05:33:12.099Z</updated>
+    <updated>2021-05-19T05:36:10.446Z</updated>
     
     
       

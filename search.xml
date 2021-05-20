@@ -4,6 +4,31 @@
   
     
     <entry>
+      <title>百度网盘批量转存工具</title>
+      <link href="posts/c714d80/"/>
+      <url>posts/c714d80/</url>
+      
+        <content type="html"><![CDATA[<h2 id="需求"><a href="#需求" class="headerlink" title="需求"></a>需求</h2><p>某天，在将一个百度网盘分享转存到自己网盘里时，想到要有一款工具，能自动的将很多个分享文件转存到网盘目录下会节省很多时间。</p><h2 id="思路"><a href="#思路" class="headerlink" title="思路"></a>思路</h2><p>整体思路就是，先摸清在百度网盘中，提取一个分享需要几个步骤；再分析每个步骤调用了那些API；随后“猜”出这些API的参数是什么；最后设计开发就没问题了。</p><h2 id="逆向"><a href="#逆向" class="headerlink" title="逆向"></a>逆向</h2><p>在百度网盘网页版中，将分享保存到自己网盘一共有3个步骤：</p><ul><li>打开分享链接</li><li>提取码提取（验证）</li><li>转存到自己网盘指定目录下</li></ul><p>每个步骤发送的API请求：</p><ul><li>分享页面GET请求</li><li>分享提取验证POST请求</li><li>转存POST请求</li></ul><p>这些个请求总体的依赖参数有：</p><ul><li>已经登陆的百度网盘Cookie</li><li><code>logId</code>-来自cookie中的<code>BAIDUID</code>字段</li><li>分享链接的短码-来自分享链接的最后22位</li><li>分享链接的提取码</li><li><code>shareId</code>、<code>fsid</code>等字段</li></ul><p>参数的具体来源这里就不一一细说了:)</p><h2 id="行动"><a href="#行动" class="headerlink" title="行动"></a>行动</h2><p>简单的说，有这么两种方式可以提供该工具：</p><ol><li>在线的UI页面</li><li>本地工具（UI或者命令行）</li></ol><p>出于简单考虑，暂时用本地工具的命令行方式好了。</p><p>于是，花了几天，用java写出来一个<a href="https://github.com/hvious/baidupantransfer">百度网盘批量转存工具</a>。</p><p>使用方式很简单，自己编译，或者使用我<a href="https://github.com/hvious/baidupantransfer/releases">编译好的jar包</a>，在本地命令行执行<code>java -jar xxx.jar</code>即可运行。</p><p>在我自己的使用过程中，转存几千个链接，没什么大问题。</p><p>跟我自己手动去转存比起来，确实能节省很多时间。</p><h2 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h2><p>这个工具算是我开源项目的试水，希望能继续为开源贡献自己的力量。同时，希望这个工具能帮助到一些有需求的同学。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> tools </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> fun </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>在docker中使用nginx</title>
       <link href="posts/7aa5072d/"/>
       <url>posts/7aa5072d/</url>
