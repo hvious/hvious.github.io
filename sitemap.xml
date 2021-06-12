@@ -65,13 +65,6 @@
   </url>
   
   <url>
-    <loc>https://vious.cn/posts/60f5d476/</loc>
-    
-    <lastmod>2021-04-20</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://vious.cn/posts/2d4a7e59/</loc>
     
     <lastmod>2021-04-20</lastmod>
@@ -79,7 +72,7 @@
   </url>
   
   <url>
-    <loc>https://vious.cn/posts/37178aa8/</loc>
+    <loc>https://vious.cn/posts/60f5d476/</loc>
     
     <lastmod>2021-04-20</lastmod>
     
@@ -87,6 +80,13 @@
   
   <url>
     <loc>https://vious.cn/posts/a5f76939/</loc>
+    
+    <lastmod>2021-04-20</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://vious.cn/posts/37178aa8/</loc>
     
     <lastmod>2021-04-20</lastmod>
     
@@ -165,35 +165,7 @@
   </url>
   
   <url>
-    <loc>https://vious.cn/tags/MinIO/</loc>
-    <lastmod>2021-06-12</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://vious.cn/tags/MongoDB/</loc>
-    <lastmod>2021-06-12</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://vious.cn/tags/nginx/</loc>
-    <lastmod>2021-06-12</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://vious.cn/tags/redis/</loc>
-    <lastmod>2021-06-12</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://vious.cn/tags/php/</loc>
     <lastmod>2021-06-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -214,7 +186,28 @@
   </url>
   
   <url>
+    <loc>https://vious.cn/tags/MinIO/</loc>
+    <lastmod>2021-06-12</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://vious.cn/tags/docker-compose/</loc>
+    <lastmod>2021-06-12</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://vious.cn/tags/redis/</loc>
+    <lastmod>2021-06-12</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://vious.cn/tags/MongoDB/</loc>
     <lastmod>2021-06-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
@@ -229,6 +222,13 @@
   
   <url>
     <loc>https://vious.cn/tags/fun/</loc>
+    <lastmod>2021-06-12</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://vious.cn/tags/php/</loc>
     <lastmod>2021-06-12</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
